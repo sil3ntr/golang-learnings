@@ -20,6 +20,8 @@ func main() {
 		{"ModelName": "Spectrum 128K+", "ModelNum": "128k", "ManuFact": "Sinclair", "Mem": 128, "Rrp": 499}
 	]`)
 
+	fmt.Printf("%T", jsonBlob)
+
 	computers := []computer{}
 	// or var computers []computer
 
