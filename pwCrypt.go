@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	p := `Diviv123#`
+	p := `Password123#`
 
 	bs, err := bcrypt.GenerateFromPassword([]byte(p), bcrypt.MinCost)
 	if err != nil {
